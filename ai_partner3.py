@@ -3,7 +3,8 @@ import os
 import json
 import streamlit as st
 from openai import OpenAI
-from config import OPENAI_API_KEY
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
+
 
 
 import streamlit as st
